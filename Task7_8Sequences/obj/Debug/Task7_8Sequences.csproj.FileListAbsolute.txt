@@ -1,0 +1,7 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\obj\Debug\Task7_8Sequences.csprojAssemblyReference.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\obj\Debug\Task7_8Sequences.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\bin\Debug\Task7_8Sequences.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\bin\Debug\Task7_8Sequences.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\bin\Debug\Task7_8Sequences.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\obj\Debug\Task7_8Sequences.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task7_8Sequences\obj\Debug\Task7_8Sequences.pdb

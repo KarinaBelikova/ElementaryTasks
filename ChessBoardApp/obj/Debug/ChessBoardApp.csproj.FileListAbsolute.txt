@@ -1,0 +1,7 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\bin\Debug\ChessBoardApp.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\bin\Debug\ChessBoardApp.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\bin\Debug\ChessBoardApp.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\obj\Debug\ChessBoardApp.csprojAssemblyReference.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\obj\Debug\ChessBoardApp.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\obj\Debug\ChessBoardApp.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\ChessBoardApp\obj\Debug\ChessBoardApp.pdb

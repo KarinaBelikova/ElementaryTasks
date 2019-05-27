@@ -1,0 +1,7 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\bin\Debug\TriangleApp.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\bin\Debug\TriangleApp.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\bin\Debug\TriangleApp.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\obj\Debug\TriangleApp.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\obj\Debug\TriangleApp.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\obj\Debug\TriangleApp.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\TriangleApp\obj\Debug\TriangleApp.csprojAssemblyReference.cache

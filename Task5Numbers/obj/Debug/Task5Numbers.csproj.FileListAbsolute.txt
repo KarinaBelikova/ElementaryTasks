@@ -1,0 +1,7 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\bin\Debug\Task5Numbers.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\bin\Debug\Task5Numbers.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\bin\Debug\Task5Numbers.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\obj\Debug\Task5Numbers.csprojAssemblyReference.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\obj\Debug\Task5Numbers.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\obj\Debug\Task5Numbers.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task5Numbers\obj\Debug\Task5Numbers.pdb

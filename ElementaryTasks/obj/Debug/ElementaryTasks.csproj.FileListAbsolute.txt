@@ -1,0 +1,7 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\bin\Debug\ElementaryTasks.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\bin\Debug\ElementaryTasks.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\bin\Debug\ElementaryTasks.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\obj\Debug\ElementaryTasks.csprojAssemblyReference.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\obj\Debug\ElementaryTasks.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\obj\Debug\ElementaryTasks.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\ElementaryTasks\obj\Debug\ElementaryTasks.pdb
