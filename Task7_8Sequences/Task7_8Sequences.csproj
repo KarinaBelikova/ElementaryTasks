@@ -46,6 +46,7 @@
     <Compile Include="SequenceUI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enum\Task.cs" />
     <Compile Include="Task7\SquareNumbers.cs" />
     <Compile Include="Task8\Fibonacci.cs" />
     <Compile Include="Validator.cs" />

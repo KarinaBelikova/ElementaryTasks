@@ -2,7 +2,7 @@
 
 namespace Task7_8Sequences
 {
-    public class SquareNumbers
+    public class SquareNumbers //TODO : IEnumerable // GetEnumerator
     {
         #region Fild
        
@@ -21,7 +21,7 @@ namespace Task7_8Sequences
 
         #region Iterator
 
-        public IEnumerable<int> GetSequence()
+        public IEnumerable<int> GetSequence()   //TODO Method if(GetNextNumber)  
         {
             for (int i = 0; i < _maxNumber; i++)
             {
@@ -30,7 +30,8 @@ namespace Task7_8Sequences
                     yield return i;
                 }
             }
-        }      
+        }    
+        
         #endregion  
     }
 }

@@ -4,10 +4,10 @@ namespace Task7_8Sequences
 {
     public class Fibonacci
     {
-        #region Properties
+        #region Fields
 
-        private int LowLimit { get; set; }
-        private int UpLimit { get; set; }
+        private int _lowLimit = 0;
+        private int _upLimit = 0;
 
         #endregion
 
@@ -15,8 +15,8 @@ namespace Task7_8Sequences
 
         public Fibonacci(int lowLimit, int upLimit)
         {
-            LowLimit = lowLimit;
-            UpLimit = upLimit;
+            _lowLimit = lowLimit;
+            _upLimit = upLimit;
         }
 
         #endregion
@@ -27,12 +27,12 @@ namespace Task7_8Sequences
         {
             int previous = 0;
             int next = 1;
-            while (previous + next <= UpLimit)
+            while (previous + next <= _upLimit)
             {
                 int sum = previous + next;
                 previous = next;
                 next = sum;
-                if (next > LowLimit)
+                if (next > _lowLimit)
                 {
                     yield return next;
                 }

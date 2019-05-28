@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Task7_8Sequences
 {
     class Program
@@ -8,91 +7,53 @@ namespace Task7_8Sequences
         {
             if (args.Length == 0)
             {
-                Console.Write("Enter number of task (7 or 8): ");
-                int task = Convert.ToInt32(Console.ReadLine());
-
-                switch (task)
+                try
                 {
-                    case 7:
-                        try
-                        {
+
+                    Console.Write("Enter number of task (7 or 8): ");
+                    Task task = (Task)Convert.ToInt32(Console.ReadLine());
+
+                    switch (task)
+                    {
+                        case Task.SquareSequance:
                             Console.Write("Enter number: ");
-                            int[] paramsTask7 = new int[2];
+                            int maxNumber = int.Parse(Console.ReadLine());
 
-                            paramsTask7[0] = 7;
-                            paramsTask7[1] = Int32.Parse(Console.ReadLine());
+                            if (Validator.IsPozitiveNumber(maxNumber))
+                                SequenceUI.PrintSquares(maxNumber);
+                            break;
 
-                            if (Validator.IsCorrect7Task(paramsTask7))
-                                SequenceUI.PrintSquares(paramsTask7[1]);
-                        }
-                        catch (FormatException)
-                        {
-                            SequenceUI.Incorrect();
-                        }
-                        break;
-                    case 8:
-                        try
-                        {
-                            int[] paramsTask8 = new int[3];
-
-                            paramsTask8[0] = 8;
+                        case Task.FiboSequence:
                             Console.Write("Low limit: ");
-                            paramsTask8[1] = Int32.Parse(Console.ReadLine());
+                            int lowLimit = int.Parse(Console.ReadLine());
 
                             Console.Write("Up limit: ");
-                            paramsTask8[2] = Int32.Parse(Console.ReadLine());
+                            int upLimit = int.Parse(Console.ReadLine());
 
-                            if (Validator.IsCorrect8Task(paramsTask8))
-                                SequenceUI.PrintFibonacci(paramsTask8[1], paramsTask8[2]);
-                        }
-                        catch (FormatException)
-                        {
+                            if (Validator.IsCorrectRange(lowLimit, upLimit))
+                                SequenceUI.PrintFibonacci(lowLimit, upLimit);
+                            break;
+
+                        default:
                             SequenceUI.Incorrect();
-                        }
-                        break;
-                    default:
-                        SequenceUI.Incorrect();
-                        break;
-                }
-            }
-
-            else if (args.Length == 2)
-            {
-                try
-                {
-                    int[] array = Array.ConvertAll(args, int.Parse);
-
-                    if (Validator.IsCorrect7Task(array))
-                    {
-                        int number = array[1];
-                        SequenceUI.PrintSquares(number);
+                            break;
                     }
                 }
                 catch (FormatException)
                 {
-                    SequenceUI.ShowInstructionsParametors();
-                }                
-
-            }
-
-            else if (args.Length == 3)
-            {
-                try
-                {
-                    int[] array = Array.ConvertAll(args, int.Parse);
-                    if (Validator.IsCorrect8Task(array))
-                    {
-                        int lowLimit = array[1];
-                        int upLimit = array[2];
-                        SequenceUI.PrintFibonacci(lowLimit, upLimit);
-                    }
+                    SequenceUI.Incorrect();
                 }
-                catch (FormatException)
-                {
-                    SequenceUI.ShowInstructionsParametors();
-                }                                                                             
             }
-           
+
+            if (args.Length == 2 && Validator.IsCorrectArgs7Task(args, out int[] paramsTask7))
+                SequenceUI.PrintSquares(paramsTask7[1]);
+
+            else if (args.Length == 3 && Validator.IsCorrectArgs8Task(args, out int[] paramsTask8))
+                SequenceUI.PrintFibonacci(paramsTask8[1], paramsTask8[2]);
+
+            else
+                SequenceUI.ShowInstructionsParams();                        
+
             Console.ReadKey();
         }
     }

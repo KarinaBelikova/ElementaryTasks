@@ -16,12 +16,12 @@ namespace Task7_8Sequences
         public static void PrintFibonacci(int low, int up)
         {
             Fibonacci fiboSequence = new Fibonacci(low, up);
-            Console.WriteLine($"\nFibonacci sequence in diapason {low} - {up}");
+            Console.WriteLine($"\nFibonacci sequence in range {low} - {up}");
             Console.Write(string.Join(", ", fiboSequence.GetSequence()));
             Console.ReadKey();
         }
 
-        public static void ShowInstructionsParametors()
+        public static void ShowInstructionsParams()
         {
             Console.WriteLine("Your input data isn't correct.");
             Console.WriteLine("Please input 2 arguments for 7 Task (Example: 7 125)");
