@@ -1,7 +1,0 @@
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\bin\Debug\NumericSequenceApp.exe.config
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\bin\Debug\NumericSequenceApp.exe
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\bin\Debug\NumericSequenceApp.pdb
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\obj\Debug\NumericSequenceApp.csproj.CoreCompileInputs.cache
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\obj\Debug\NumericSequenceApp.exe
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\obj\Debug\NumericSequenceApp.pdb
-C:\Users\kiit1\source\repos\ElementaryTasks\NumericSequenceApp\obj\Debug\NumericSequenceApp.csprojAssemblyReference.cache
