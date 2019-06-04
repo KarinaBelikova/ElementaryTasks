@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B103CAA3-4F28-419C-804E-EFD297195419}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LuckyTickets</RootNamespace>
-    <AssemblyName>LuckyTickets</AssemblyName>
+    <RootNamespace>Task6LuckyTickets</RootNamespace>
+    <AssemblyName>Task6LuckyTickets</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

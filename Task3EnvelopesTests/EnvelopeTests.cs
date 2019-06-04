@@ -13,14 +13,10 @@ namespace Task2Envelopes.Tests
     {
         [TestMethod()]
         public void CompareToTest()
-        {
-            // Arrange
+        {    
             Envelope first = new Envelope(1, 2);
             Envelope second = new Envelope(3, 4);
 
-            // Act
-
-            // Assert
             Assert.AreEqual(-1, first.CompareTo(second));
             Assert.AreEqual(1, second.CompareTo(first));
             Assert.AreEqual(0, first.CompareTo(first));
