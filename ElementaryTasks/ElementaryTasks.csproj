@@ -52,7 +52,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task1\ChessBoard.cs" />
-    <Compile Include="Task2\Envelope.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

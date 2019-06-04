@@ -9,7 +9,6 @@ namespace Task7_8Sequences
             {
                 try
                 {
-
                     Console.Write("Enter number of task (7 or 8): ");
                     Task task = (Task)Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +21,6 @@ namespace Task7_8Sequences
                             if (Validator.IsPozitiveNumber(maxNumber))
                                 SequenceUI.PrintSquares(maxNumber);
                             break;
-
                         case Task.FiboSequence:
                             Console.Write("Low limit: ");
                             int lowLimit = int.Parse(Console.ReadLine());
@@ -33,7 +31,6 @@ namespace Task7_8Sequences
                             if (Validator.IsCorrectRange(lowLimit, upLimit))
                                 SequenceUI.PrintFibonacci(lowLimit, upLimit);
                             break;
-
                         default:
                             SequenceUI.Incorrect();
                             break;

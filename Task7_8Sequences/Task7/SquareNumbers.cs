@@ -1,31 +1,29 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 
-namespace Task7_8Sequences
+namespace Task7_8Sequences // _ - нельзя
 {
-    public class SquareNumbers //TODO : IEnumerable // GetEnumerator
-    {
-        #region Fild
-       
-        private int _maxNumber;
+    public class SquareNumbers : Sequence //TODO : IEnumerable // GetEnumerator
+    {      
+        #region Constructor
+
+        public SquareNumbers(int upLimit) : base(1, upLimit) { }
 
         #endregion
 
-        #region Constructors
-
-        public SquareNumbers(int maxNumber)
+        public override IEnumerator GetEnumerator()
         {
-            _maxNumber = maxNumber;
+            throw new System.NotImplementedException();
         }
 
-        #endregion
 
         #region Iterator
 
         public IEnumerable<int> GetSequence()   //TODO Method if(GetNextNumber)  
         {
-            for (int i = 0; i < _maxNumber; i++)
+            for (int i = 0; i < _upLimit; i++)
             {
-                if (i * i < _maxNumber)
+                if (i * i < _upLimit)
                 {
                     yield return i;
                 }

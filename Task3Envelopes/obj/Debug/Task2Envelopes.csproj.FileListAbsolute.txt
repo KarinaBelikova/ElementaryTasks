@@ -1,0 +1,6 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\bin\Debug\Task3Envelopes.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\bin\Debug\Task3Envelopes.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\bin\Debug\Task3Envelopes.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\obj\Debug\Task2Envelopes.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\obj\Debug\Task3Envelopes.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task3Envelopes\obj\Debug\Task3Envelopes.pdb
