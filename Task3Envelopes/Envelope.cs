@@ -8,8 +8,14 @@ namespace Task2Envelopes
 {
     public class Envelope : IComparable<Envelope>
     {
+        #region Props
+
         public double Height { get; set; }
         public double Width { get; set; }
+
+        #endregion
+
+        #region Ctor
 
         public Envelope(double height, double width)
         {
@@ -17,9 +23,13 @@ namespace Task2Envelopes
             Width = width;
         }
 
+        #endregion
+
+        #region Methode
+
         public int CompareTo(Envelope other)
         {
-            if ((this.Height > other.Height) && (this.Width > other.Width))            
+            if ((this.Height > other.Height) && (this.Width > other.Width))
             {
                 return 1;
             }
@@ -30,5 +40,8 @@ namespace Task2Envelopes
             else
                 return -1;
         }
+
+        #endregion
+
     }
 }

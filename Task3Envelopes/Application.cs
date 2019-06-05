@@ -35,5 +35,12 @@ namespace Task2Envelopes
 
             return result;
         }
+
+        public static bool Exit()
+        {
+            UI.Display("Do you want to exit? Press 'Esc' ");
+
+            return (Console.ReadKey(true).Key == ConsoleKey.Escape);
+        }
     }
 }

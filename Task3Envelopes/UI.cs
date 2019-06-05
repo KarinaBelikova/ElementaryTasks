@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Task2Envelopes
 {
     public class UI
@@ -6,14 +7,15 @@ namespace Task2Envelopes
         public static double[] InputEnvelopesData()
         {
             double[] parameters = new double[4];
-            Console.WriteLine("Input width and height for two envelopes: ");         
+            Display("Input 4 numbers (width and height for two envelopes): ");         
             
             for (int i = 0; i < parameters.Length; i++)
             {
-                parameters[i] = double.Parse(Console.ReadLine());
-                if (!Validator.IsCorrectEnvelopeSide(parameters[i]))
+                if(!double.TryParse(Console.ReadLine(), out parameters[i]) ||
+                    !Validator.IsCorrectEnvelopeSide(parameters[i]))
                 {
-                    UI.IncorrectInput();
+                    IncorrectInput();                   
+                    i--;
                 }
             }
 
@@ -27,12 +29,12 @@ namespace Task2Envelopes
 
         public static void IncorrectInput()
         {
-            Console.WriteLine("Envelope side must be more than zero ");
+            Display("Envelope side must be a number, above zero. Try again: ");           
         }
 
         public static void ShowErrorMessage(Exception e)
         {
-            Console.WriteLine(e.Message);
+            Display(e.Message);
             Console.ReadLine();
         }
 

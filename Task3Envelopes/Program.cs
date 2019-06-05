@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 
 namespace Task2Envelopes
 {
@@ -9,14 +8,16 @@ namespace Task2Envelopes
         {
             try
             {
-                Application.Run();
+                do
+                {
+                    Application.Run();
+                }
+                while (!Application.Exit());               
             }
             catch (FormatException e)
             {
                 UI.ShowErrorMessage(e);
-            }
-           
+            }           
         }
-
     }
 }

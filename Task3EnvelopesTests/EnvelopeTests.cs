@@ -1,10 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Task2Envelopes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task2Envelopes.Tests
 {
@@ -12,14 +6,48 @@ namespace Task2Envelopes.Tests
     public class EnvelopeTests
     {
         [TestMethod()]
-        public void CompareToTest()
-        {    
+        public void CompareToTest_IsBigger()
+        {
+            // Arrange
             Envelope first = new Envelope(1, 2);
             Envelope second = new Envelope(3, 4);
+            int expected = 1;
 
-            Assert.AreEqual(-1, first.CompareTo(second));
-            Assert.AreEqual(1, second.CompareTo(first));
-            Assert.AreEqual(0, first.CompareTo(first));
+            // Act
+            int actual = second.CompareTo(first);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void CompareToTest_IsNotBigger()
+        {
+            // Arrange
+            Envelope first = new Envelope(1, 2);
+            Envelope second = new Envelope(3, 4);
+            int expected = -1;
+
+            // Act
+            int actual = first.CompareTo(second);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod()]
+        public void CompareToTest_AreSame()
+        {
+            // Arrange
+            Envelope first = new Envelope(1, 2);
+            Envelope second = new Envelope(1, 2);
+            int expected = 0;
+
+            // Act
+            int actual = second.CompareTo(first);
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
