@@ -1,0 +1,11 @@
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\Task6LuckyTickets.exe.config
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\Task6LuckyTickets.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\Task6LuckyTickets.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\obj\Debug\Task6LuckyTickets.csprojAssemblyReference.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\obj\Debug\Task6LuckyTickets.csproj.CoreCompileInputs.cache
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\obj\Debug\Task6LuckyTickets.exe
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\obj\Debug\Task6LuckyTickets.pdb
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\NLog.config
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\NLog.dll
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\bin\Debug\NLog.xml
+C:\Users\kiit1\source\repos\ElementaryTasks\Task6LuckyTickets\obj\Debug\Task6LuckyTickets.csproj.CopyComplete

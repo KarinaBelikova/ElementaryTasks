@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task6LuckyTickets
+﻿namespace Task6LuckyTickets
 {
     public class Application
     {
-        public static void Run()
+        public static void Run(InputModel model)
         {
-             
-        }
+            int sum = TicketAnalyzator.GetCountLuckyTickets(model);
+
+            UI.ShowCountOfLuckyTickets(sum, model);
+        }    
     }
 }
